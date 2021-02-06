@@ -1,0 +1,18 @@
+{
+  "name": "node-plain-es-starter",
+  "version": "1.0.0",
+  "description": "Bare-bones, babel-free project to use the latest ES implemented in V8/nodejs",
+  "type": "module",
+  "main": "index.js",
+  "author": "Emmett Pickerel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --es-module-specifier-resolution=node src/index.js"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
